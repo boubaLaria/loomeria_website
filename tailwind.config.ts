@@ -1,11 +1,10 @@
 import type { Config } from "tailwindcss";
-import flowbite from "flowbite-react/tailwind";
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    flowbite.content(),
+
   ],
   darkMode: 'class',
   theme: {
@@ -54,7 +53,7 @@ const config: Config = {
   plugins: [
     // eslint-disable-next-line @typescript-eslint/no-require-imports
     require('tailwind-scrollbar-hide'),
-    flowbite.content(),
+ 
   ]
 };
 export default config;
