@@ -18,7 +18,7 @@ export default function RootLayout({
       <body>
         <div className="font-sans mx-auto bg-white">
           <Header />
-          <main>{children}</main>
+          <main className="pt-6">{children}</main>
           <Footer />
         </div>
       </body>
