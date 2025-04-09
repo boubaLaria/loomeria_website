@@ -6,6 +6,10 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Loomeria - Le savoir-faire à portée de main',
   description: 'Plateforme de vente pour artisans et commerçants locaux',
+  icons: {
+    icon: '/logo-loomeria.ico?v=1',
+    apple: '/logo-loomeria.ico?v=5',
+  },
 };
 
 export default function RootLayout({
