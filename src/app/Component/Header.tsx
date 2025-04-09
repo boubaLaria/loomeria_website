@@ -13,9 +13,9 @@ export default function Header() {
         <Link href="#why-choose">Acheter sur Loomeria</Link>
         <Link href="#why-sell">Vendre sur Loomeria</Link>
         <Link href="#pricing">Pricing</Link>
-        <Link href="#app-promo">Nous écrire</Link>
+        {/* <Link href="#app-promo">Nous écrire</Link> */}
       </nav>
-      <button className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm">Télécharger l&apos;application</button>
+      <Link href='#app-promo' className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm">Télécharger l&apos;application</Link>
     </header>
   );
 }

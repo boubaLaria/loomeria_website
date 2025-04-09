@@ -18,7 +18,7 @@ export default function Pricing() {
   const plans: PricingPlan[] = [
     {
       title: 'Tarif Gratuit',
-      price: '0,0 €',
+      price: 'Gratuit',
       bgColor:"bg-blue-50",
       features: [
         { active: true, text: 'Création jusqu\'à <strong>5 articles</strong>' },
@@ -30,7 +30,7 @@ export default function Pricing() {
     },
     {
       title: 'Tarif Standard',
-      price: '9,9 €/mois',
+      price: '9,99 €/mois',
       bgColor:"bg-blue-100",
       features: [
         { active: true, text: 'Création <strong>jusqu\'à 50 articles</strong>' },
@@ -42,7 +42,7 @@ export default function Pricing() {
     },
     {
       title: 'Tarif Standard',
-      price: '19,9 €/mois',
+      price: '19,99 €/mois',
       bgColor:"bg-blue-200",
       features: [
         { active: true, text: 'Création <strong>sans limite</strong> d\'articles' },

@@ -18,7 +18,7 @@ export default function ValueCard({ title, description, imageSrc, bgColor = 'bg-
         <h3 className="text-2xl text-center font-bold text-blue-900 mb-2">{title}</h3>
         <p className="text-gray-600 text-lg text-center w-[70%] mx-auto ">{description}</p>
       </div>
-      <div className="ml-4 flex-1  content-center">
+      <div className=" p-4 flex-1  content-center">
         <Image src={imageSrc} alt={title} width={300} height={200} className="rounded-full" />
       </div>
     </div>
