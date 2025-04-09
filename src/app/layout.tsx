@@ -10,6 +10,11 @@ export const metadata: Metadata = {
     icon: '/logo-loomeria.ico?v=1',
     apple: '/logo-loomeria.ico?v=5',
   },
+  verification: {
+    other: {
+      'p:domain_verify': 'de4a2150b02d9911e5dc5249e9c9769d',
+    },
+  },
 };
 
 export default function RootLayout({
