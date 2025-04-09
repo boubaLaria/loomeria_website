@@ -4,12 +4,11 @@ import Pricing from "./Component/Pricing";
 import Values from "./Component/Values";
 import WhyChoose from "./Component/WhyChoose";
 import WhySell from "./Component/WhySell";
-import Header from "./Component/Header";
 
 export default function Home() {
   return (
     <div className="bg-white max-w-7xl mx-auto flex flex-col min-h-screen">
-      <Header />
+      
       <div id="hero">
         <Hero />
       </div>

@@ -1,7 +1,7 @@
 import "./globals.css";
-import Header from './Component/Header';
 import Footer from './Component/Footer';
 import { Metadata } from 'next';
+import Header from "./Component/Header";
 
 export const metadata: Metadata = {
   title: 'Loomeria - Le savoir-faire à portée de main',
@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className="font-sans mx-auto bg-white">
-          <Header />
+        <Header />
           <main className="pt-6">{children}</main>
           <Footer />
         </div>

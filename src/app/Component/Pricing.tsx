@@ -21,11 +21,8 @@ export default function Pricing() {
       price: 'Gratuit',
       bgColor:"bg-blue-50",
       features: [
-        { active: true, text: 'Création jusqu\'à <strong>5 articles</strong>' },
-        { active: false, text: '<strong>Assistance rapide</strong> en cas de besoin' },
-        { active: false, text: 'Visibilité sur notre <strong>page d\'accueil</strong>' },
-        { active: false, text: 'Statistiques <strong>de base</strong> des visites et commandes' },
-        { active: false, text: 'Promotion <strong>occasionnelle</strong> de vos articles sur notre page Instagram' }
+        { active: true, text: '🛍️ Publiez jusqu’à 15 articles' },
+        { active: true, text: '🫶🏻 Assistance rapide en cas de besoin' },
       ]
     },
     {
@@ -33,24 +30,21 @@ export default function Pricing() {
       price: '9,99 €/mois',
       bgColor:"bg-blue-100",
       features: [
-        { active: true, text: 'Création <strong>jusqu\'à 50 articles</strong>' },
-        { active: true, text: '<strong>Assistance rapide</strong> en cas de besoin' },
-        { active: true, text: 'Mise en avant de vos <strong>6 meilleurs articles</strong> pour plus de visibilité' },
-        { active: false, text: 'Statistiques <strong>détaillées</strong> des performances' },
-        { active: false, text: 'Promotion <strong>occasionnelle</strong> de vos articles' }
+        { active: true, text: '🛍️ Publiez les articles sans limite' },
+        { active: true, text: '🫶🏻 Assistance rapide en cas de besoin' },
+        { active: true, text: "🔥 Mettez en avant jusqu'à 5 de vos articles pour plus de visibilité" }
       ]
     },
     {
-      title: 'Tarif Standard',
+      title: 'Tarif Premium',
       price: '19,99 €/mois',
       bgColor:"bg-blue-200",
       features: [
-        { active: true, text: 'Création <strong>sans limite</strong> d\'articles' },
-        { active: true, text: '<strong>Assistance rapide</strong> en cas de besoin' },
-        { active: true, text: 'Mise en avant <strong>jusqu\'à 20 articles</strong> pour plus de visibilité' },
-        { active: true, text: 'Toutes les <strong>performances</strong> et statistiques <strong>avancées</strong>' },
-        { active: true, text: 'Promotion <strong>hebdomadaire</strong> sur nos réseaux sociaux' },
-        { active: true, text: 'Participation aux <strong>formations</strong> en ligne pour les commerçants' }
+        { active: true, text: '🛍️ Publiez les articles sans limite' },
+        { active: true, text: '🫶🏻 Assistance rapide en cas de besoin' },
+        { active: true, text: "🚀 Mettez en avant jusqu'à 2 de vos collections pour plus de visibilité" },
+        { active: true, text: '📈 Suivez vos performances et ajustez votre stratégie' },
+        { active: true, text: '✍🏻 Participez aux formations en ligne pour les commerçants' }
       ],
      
     }
