@@ -26,7 +26,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className="font-sans mx-auto bg-white">
-        <Header />
+          <div >
+             <Header />
+          </div>
+       
           <main className="pt-6">{children}</main>
           <Footer />
         </div>

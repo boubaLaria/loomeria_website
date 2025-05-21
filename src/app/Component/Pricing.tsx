@@ -1,4 +1,3 @@
-
 // components/Pricing.tsx
 import React from 'react';
 import SectionTitle from './SectionTitle';
@@ -54,7 +53,7 @@ export default function Pricing() {
     <section className="container mx-auto p-4 my-4">
       <SectionTitle>Tarifs pour les vendeurs</SectionTitle>
       <div className="text-center">
-        <button className="bg-blue-800 text-white px-6 py-3 rounded-full">Je vends sur Loomeria</button>
+        <button className="bg-blue-800 text-white px-6 py-3 rounded-full font-poppins font-normal text-base">Je vends sur Loomeria</button>
       </div>
       <div className="grid md:grid-cols-3 gap-6 mt-12">
         {plans.map((plan, index) => (

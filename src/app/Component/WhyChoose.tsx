@@ -43,13 +43,12 @@ export default function WhyChoose() {
             alt="Application Loomeria" 
             width={400} 
             height={500} 
-            
           />
         </div>
         <div className="md:w-1/2 md:pl-12 flex flex-col justify-center">
           <SectionTitle withStar={true}>Pourquoi choisir Loomeria ?</SectionTitle>
 
-          <p className="text-gray-600 mb-8">
+          <p className="text-gray-600 mb-8 font-poppins font-light text-base">
             Imaginez une expérience de shopping qui change d&apos;internet est une réalité chez Loomeria. Voici pourquoi notre forte community vous fournira des produits qui concernent vos intérêts.
           </p>
           
@@ -62,7 +61,7 @@ export default function WhyChoose() {
               bgColor={feature.bgColor}
             />
           ))}
-        <button className="bg-blue-800 text-white px-6 py-3 rounded-full">Je découvre Loomeria</button>
+        <button className="bg-blue-800 text-white px-6 py-3 rounded-full font-poppins font-normal text-base">Je découvre Loomeria</button>
         </div>
       </div>
     </section>

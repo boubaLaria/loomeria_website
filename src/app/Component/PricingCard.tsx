@@ -1,4 +1,3 @@
-
 // components/PricingCard.tsx
 import React from 'react';
 import PricingFeature from './PricingFeature';
@@ -20,7 +19,7 @@ export default function PricingCard({ title, price, features, bgColor="bg-blue-5
   
   return (
     <div className={`border rounded-2xl p-6 flex flex-col cursor-pointer ${bgColor}`}>
-      <h3 className="font-bold text-xl text-blue-900 mb-4">{title}</h3>
+      <h3 className="font-medium text-[20px] md:text-[24px] text-blue-900 mb-4 font-poppins">{title}</h3>
       
       <ul className="mb-8 flex-grow">
         {features.map((feature, index) => (
@@ -31,7 +30,7 @@ export default function PricingCard({ title, price, features, bgColor="bg-blue-5
       </ul>
       
       <div className="mt-auto">
-        <div className="text-4xl font-bold text-blue-900 mb-4 text-center">{price}</div>
+        <div className="text-4xl font-bold text-blue-900 mb-4 text-center font-poppins">{price}</div>
       </div>
     </div>
   );

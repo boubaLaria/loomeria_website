@@ -18,13 +18,13 @@ export default function FeaturePoint({
   return (
     <div className="mb-6 flex">
       <div className=" items-center mb-2">
-        <div className={`${bgColor} h-full flex justify-center items-center w-24 bg-blue-100 p-2 rounded-tl-3xl rounded-br-3xl mr-4`}>
+        <div className={`${bgColor} h-full flex justify-center items-center w-24 p-2 rounded-tl-3xl rounded-br-3xl mr-4`}>
           <Image className="content-center" alt={title} src={image_src} width={40} height={40} />
         </div>
       </div>
       <div className="">
-        <h3 className="font-bold text-blue-900">{title}</h3>
-        <p className="text-gray-600 ">{description}</p>
+        <h3 className="font-medium text-[20px] md:text-[24px] text-blue-900 font-poppins">{title}</h3>
+        <p className="text-gray-600 font-poppins font-light text-base">{description}</p>
       </div>
     </div>
   );

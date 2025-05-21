@@ -8,7 +8,7 @@ interface PricingFeatureProps {
 
 export default function PricingFeature({ active, children }: PricingFeatureProps) {
   return (
-    <li className="flex items-start mb-3 text-gray-500">
+    <li className="flex items-start mb-3 text-gray-500 font-poppins font-light text-base">
       <span className={active ? "" : "line-through"}>{children}</span>
     </li>
   );

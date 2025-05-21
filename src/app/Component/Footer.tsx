@@ -1,4 +1,3 @@
-
 // components/Footer.tsx
 import React from 'react';
 import Link from 'next/link';
@@ -15,7 +14,7 @@ export default function Footer() {
             <div className="flex items-center mb-4">
               <Logo withText={true} />
             </div>
-            <p className="text-gray-600 mb-4">contact@loomeria.com</p>
+            <p className="text-gray-600 mb-4 font-poppins font-light text-base">contact@loomeria.com</p>
             <div className="flex space-x-2">
               <SocialIcon Icon={FaTwitter} />
               <SocialIcon Icon={FaFacebook} />
@@ -26,16 +25,16 @@ export default function Footer() {
           
           <div className="grid grid-cols-3 gap-8">
             <div>
-              <h4 className="font-bold text-blue-900 mb-4">À propos de nous</h4>
-              <ul className="text-gray-600 space-y-2">
+              <h4 className="font-medium text-[16px] md:text-[20px] text-blue-900 mb-4 font-poppins">À propos de nous</h4>
+              <ul className="text-gray-600 space-y-2 font-poppins font-light text-base">
                 <li><Link href="/">Qui sommes nous?</Link></li>
                 <li><Link href="/">Nos valeurs</Link></li>
               </ul>
             </div>
             
             <div>
-              <h4 className="font-bold text-blue-900 mb-4">Pour vous</h4>
-              <ul className="text-gray-600 space-y-2">
+              <h4 className="font-medium text-[16px] md:text-[20px] text-blue-900 mb-4 font-poppins">Pour vous</h4>
+              <ul className="text-gray-600 space-y-2 font-poppins font-light text-base">
                 <li><Link href="/">Acheter sur Loomeria</Link></li>
                 <li><Link href="/">Vendre sur Loomeria</Link></li>
               </ul>
@@ -43,8 +42,8 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="border-t mt-12 pt-6 text-sm text-gray-500 flex flex-col md:flex-row justify-between">
-          <p>© 2023 Loomeria, tous droits réservés</p>
+        <div className="border-t mt-12 pt-6 text-sm text-gray-500 flex flex-col md:flex-row justify-between font-poppins font-light">
+          <p>© { new Date().getFullYear() } Loomeria, tous droits réservés</p>
           <div className="flex space-x-4 mt-2 md:mt-0">
             <Link href="/">Politique de confidentialité</Link>
             <Link href="/">Conditions générales d&apos;utilisation</Link>

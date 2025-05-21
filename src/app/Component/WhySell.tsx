@@ -47,7 +47,7 @@ export default function WhySell() {
           />
         </div>
         <div className="md:w-1/2 flex flex-col justify-center">
-          <p className="text-gray-600 mb-8">
+          <p className="text-gray-600 mb-8 font-poppins font-light text-base">
             Rejoignez une communauté dynamique de créateurs passionnés qui partagent votre amour pour la mode éthique, vendent leurs créations uniques et touchent une audience engagée.
           </p>
           
@@ -62,8 +62,6 @@ export default function WhySell() {
           ))}
         </div>
       </div>
-      
- 
     </section>
   );
 }

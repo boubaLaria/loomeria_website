@@ -8,7 +8,7 @@ export default function AppPromo() {
   return (
     <section className="container mx-auto p-4 my-16 text-center">
       <SectionTitle>Rejoignez l&apos;aventure de mode</SectionTitle>
-      <p className="text-gray-600 max-w-2xl mx-auto mb-8">
+      <p className="text-gray-600 max-w-2xl mx-auto mb-8 font-poppins font-light text-base">
         Prêt à découvrir le meilleur de la mode faite main ? Téléchargez l&apos;application pour explorer des créations des créateurs de talent et rejoignez notre communauté.
       </p>
       
